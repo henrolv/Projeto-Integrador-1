@@ -1,0 +1,44 @@
+.header-bg {
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.header-logo a {
+  color: #000;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-between;
+  place-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-menu a {
+  padding: 20px 10px 20px 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+.header-menu .cadastro a {
+  display: flex;
+  place-items: center;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+
+@media (max-width: 600px) {
+  .header-menu {
+    display: none;
+  }
+}

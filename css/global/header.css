@@ -1,6 +1,7 @@
 .header-bg {
   width: 100%;
   border-bottom: 1px solid #000;
+  padding: 1.25rem;
 }
 
 .header-logo a {
@@ -12,7 +13,7 @@
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+
   justify-content: space-between;
   place-items: center;
 }
@@ -21,24 +22,28 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .header-menu a {
-  padding: 20px 10px 20px 10px;
-  font-size: 16px;
+  padding: 1.25rem 0.625rem;
+  font-size: 1.125rem;
   color: #000;
 }
 
 .header-menu .cadastro a {
   display: flex;
   place-items: center;
-  padding: 10px 15px;
+  padding: 0.625rem 0.938rem;
   border: 1px solid black;
 }
 
 @media (max-width: 600px) {
   .header-menu {
     display: none;
+  }
+
+  .header-logo a {
+    font-size: 1.5rem;
   }
 }
